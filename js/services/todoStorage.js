@@ -4,7 +4,7 @@
  * Services that persists and retrieves TODOs from localStorage.
  */
 todomvc.factory( 'todoStorage', function() {
-  var STORAGE_ID = 'todos-angularjs';
+  var STORAGE_ID = 'todos-angularjs-perf';
 
   return {
     get: function() {
